@@ -1,5 +1,6 @@
 # Logs
-logs
+/logs
+>>>>>>> Init repo
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -29,14 +30,22 @@ bower_components
 # node-waf configuration
 .lock-wscript
 
+<<<<<<< HEAD
 # Compiled binary addons (http://nodejs.org/api/addons.html)
+=======
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+>>>>>>> Init repo
 build/Release
 
 # Dependency directories
 node_modules/
 jspm_packages/
 
+<<<<<<< HEAD
 # Typescript v1 declaration files
+=======
+# TypeScript v1 declaration files
+>>>>>>> Init repo
 typings/
 
 # Optional npm cache directory
@@ -57,3 +66,34 @@ typings/
 # dotenv environment variables file
 .env
 
+<<<<<<< HEAD
+=======
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+
+# next.js build output
+.next
+
+# nuxt.js build output
+.nuxt
+
+# Nuxt generate
+dist
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless
+
+# IDE / Editor
+.idea
+
+# Service worker
+sw.*
+
+# macOS
+.DS_Store
+
+# Vim swap files
+*.swp
